@@ -586,21 +586,7 @@ function App() {
         <div className="bingo-container">
           {BingoTableView}
         </div>
-        <ins className="adsbygoogle"
-          style={{display: "block"}}
-          data-ad-client="ca-pub-9351793940385765"
-          data-ad-slot="5016049614"
-          data-ad-format="auto"
-          data-full-width-responsive="true">
-        </ins>
         {desc()}
-        <div className="dona-wrap">
-          <div className="dona-box-wrap">
-            <a href="https://paypal.me/ialy1595" target="_blank"><img className="dona-image" src={paypalImage} alt=""/></a>
-            <a href="https://qr.kakaopay.com/FCxYaD9Ja" target="_blank"><img className="dona-image" src={kakaopayImage} alt=""/></a>
-            <a href="https://www.buymeacoffee.com/ialy1595" target="_blank"><img className="dona-image" src={buymeacoffeeImage} alt=""/></a>
-          </div>
-        </div>
       </Container>
     </div>
   );
